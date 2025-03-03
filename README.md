@@ -44,8 +44,8 @@ docker run --rm -e TRUSTSTORE_PATH=/path/to/custom-truststore.jks -e TRUSTSTORE_
 
 | Property | Description |
 |---|---|
-| `expd.internal.truststore.path` | Path to your internal truststore (JKS file) |
-| `expd.internal.truststore.password` | Password for the internal truststore |
+| `internal.truststore.path` | Path to your internal truststore (JKS file) |
+| `internal.truststore.password` | Password for the internal truststore |
 | `javax.net.ssl.trustStore` | (Optional) Override system truststore path |
 | `javax.net.ssl.trustStorePassword` | (Optional) Override system truststore password |
 

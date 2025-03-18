@@ -1,5 +1,5 @@
 #!/bin/sh
 
-java -Dexpd.internal.truststore.path="${TRUSTSTORE_PATH}" \
-     -Dexpd.internal.truststore.password="${TRUSTSTORE_PASSWORD}"   \
+java -Dinternal.truststore.path="${TRUSTSTORE_PATH}" \
+     -Dinternal.truststore.password="${TRUSTSTORE_PASSWORD}"   \
      -jar build/libs/ssl-diagnostic-tool.jar "$@"
